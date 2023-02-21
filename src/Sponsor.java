@@ -83,32 +83,3 @@ public class Sponsor {
 
     }
 }
-//            for(counter = 0; counter < students.length; counter++) {
-//                if (input.equalsIgnoreCase(students[counter])) {
-//                    isStudentEnrolled = true;
-//                    break;
-//                }
-//            }
-//
-//            if (isStudentEnrolled) {
-//                for(counter = 0; counter < tuitionFares.length; counter++) {
-//                    float payment = tuitionFares[counter];
-//                    System.out.println("This student enrolled in our school and he paid" + payment + "Would you like to check his proof of Payment");
-//                    String userPrompt = originalInput.nextLine().toLowerCase();
-//                    if (!userPrompt.equals("yes") && !userPrompt.equals("y")) {
-//                        System.out.println("We are deeply Sorry, We have no student that goes by those names in our school, Try somewhere else.");
-//                        String userPrompt1 = originalInput.nextLine().toLowerCase();
-//                        if (!userPrompt1.equals("no") && !userPrompt1.equals("n")) {
-//                            System.out.println("Thank you for choosing our payment system, we are always looking forward to serving you.");
-//                        } else {
-//                            System.out.println("Thank you. We shall always be here waiting to work on you when you are ready.");
-//                        }
-//                    } else if (bankAccount >= tuitionFares[counter]) {
-//                        System.out.println("Congratulations, Thanks for paying our student's tuition for this semester, Looking forward to seeing him.");
-//                        bankAccount -= tuitionFares[counter];
-//                    } else if (bankAccount < tuitionFares[counter]) {
-//                        System.out.println("Sorry, we don't have enough funds to pay for your student's tuition");
-//                    }
-//                }
-//            }
-//        }
